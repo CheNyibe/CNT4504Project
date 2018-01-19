@@ -1,0 +1,14 @@
+Testing
+Access as a contibutor:
+Ask for the username of the person you're inviting as a collaborator. If they don't have a username yet, they can sign up for GitHub.
+On GitHub, navigate to the main page of the repository.
+
+Repository settings buttonUnder your repository name, click  Settings.
+
+Repository settings sidebar with Collaborators highlightedIn the left sidebar, click Collaborators.
+
+Under "Collaborators", start typing the collaborator's username.
+Collaborator list drop-down menuSelect the collaborator's username from the drop-down menu.
+Add buttonClick Add collaborator.
+
+The user will receive an email inviting them to the repository. Once they accept your invitation, they will have collaborator access to your repository.
