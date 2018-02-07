@@ -1,0 +1,21 @@
+Host Memory Use
+String[] vmemory = {"/bin/sh","-c","vmstat -s|head -2"};//linux command to get memory use
+ cmdProc = Runtime.getRuntime().exec(vmemory);
+
+or we could use
+
+run = Runtime.getRuntime();
+command = "free";//linux cmd for 
+process = run.exec(command);//cmd toexecute the process for memory use
+/////////////////////////////////////////////////////////
+Host Current User
+ cmdProc = Runtime.getRuntime().exec("users");
+
+or we could use:
+
+run = Runtime.getRuntime();//to run the linux command
+command = who;//linux comand to determine who the user is
+process = run.exec(command);
+
+we can use the run or cmdProc for everyone of our server requirmnets to the clinent. 
+I found multiple cmds that can do the same thing.
